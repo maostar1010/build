@@ -6,6 +6,7 @@
 name: "Extra Tests"
 
 on:
+  workflow_dispatch:
   push:
     paths-ignore: #&paths
       - '.circleci/**'
